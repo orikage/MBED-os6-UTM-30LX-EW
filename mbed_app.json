@@ -1,0 +1,11 @@
+{   "target_overrides": {
+        "*": {
+            "lwip.tcp-mss": 2048
+        }
+    },
+    "config": {
+        "main-stack-size": {
+            "value": 8400
+        }
+    }
+}
