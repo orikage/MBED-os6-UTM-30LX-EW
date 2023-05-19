@@ -14,7 +14,7 @@ splited_data=input_data.split()
 j=0
 for i in splited_data:
 
-    theta=((2*math.pi)/(1080/gruoping))*j+(math.pi/2)
+    theta=((2*math.pi*(270/360))/(1080/gruoping))*j+(math.pi/2)
     x=float(i)*math.cos(theta)
     y=float(i)*math.sin(theta)
     #print(f"x,y={x,y}")
